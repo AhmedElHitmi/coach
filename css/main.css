@@ -16,6 +16,9 @@ html {
     text-shadow: none;
 }
 
+*{
+  box-sizing: border-box;
+}
 hr {
     display: block;
     height: 1px;
@@ -259,5 +262,3 @@ nav a:hover {
         margin: 0 auto;
     }
 }
-
-

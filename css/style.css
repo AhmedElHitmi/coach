@@ -1,0 +1,16 @@
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+#carousel-example-generic, .carousel-inner, .carousel-item, .carousel-item img{
+  max-height: 60vh;
+}
+
+
+
+.card{
+    border-radius: 0 !important;
+    height:450px;
+    margin-top:50px;
+}
