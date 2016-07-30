@@ -29,6 +29,8 @@ h1{
 
 h2{
 width: auto;
+text-align: center;
+padding-top: 10PX;
 }
 
 
@@ -43,12 +45,12 @@ footer{
 }
 
 .text{
-float: left;
+padding-top: 20px;
 }
 
 .hr1 {
-  border: 1px grey dashed;
-  margin: 30px 0 0 440px;;
+  border: 1px blue dashed;
+  margin: 30px 0 0 400px;;
   width: 65%;
 }
 /********************** map ********************/
@@ -75,6 +77,10 @@ header {
 
 .contact{
   margin-top: 40px;
+}
+
+.t-photo {
+  height: 600px;
 }
 
 /************************* footer *********************/
@@ -172,3 +178,39 @@ header {
 button{
   margin-top: 20px;
 }
+
+/**************************** formulaire conseil**********************/
+#cnt1 {
+     background-color:rgba(215, 212, 212, 0.88);
+     width:90%;
+     margin-bottom:70px;
+ }
+
+ .feature{
+     padding: 20px 0;
+    text-align: center;
+ }
+ .feature > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+ }
+ .feature > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+ }
+
+/**************************** formulaire réservations**********************/
+ .header {
+     color: #36A0FF;
+     font-size: 27px;
+     padding: 10px;
+ }
+
+ .bigicon {
+     font-size: 35px;
+     color: #36A0FF;
