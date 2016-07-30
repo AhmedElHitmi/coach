@@ -42,6 +42,15 @@ footer{
   margin :auto 5%;
 }
 
+.text{
+float: left;
+}
+
+.hr1 {
+  border: 1px grey dashed;
+  margin: 30px 0 0 440px;;
+  width: 65%;
+}
 /********************** map ********************/
 .map {
     min-width: 300px;
@@ -158,3 +167,8 @@ header {
        top: 75;
        left: 125%;
    }
+/**************************** formulaire contact**********************/
+
+button{
+  margin-top: 20px;
+}
