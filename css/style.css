@@ -214,3 +214,13 @@ button{
  .bigicon {
      font-size: 35px;
      color: #36A0FF;
+
+.form{
+  float:right;
+  border: 1px solid blue;
+  padding:5px;
+}
+
+.photo1{
+  float:left;
+}
