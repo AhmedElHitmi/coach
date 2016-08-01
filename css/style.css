@@ -224,3 +224,6 @@ button{
 .photo1{
   float:left;
 }
+img {
+  margin-left: 50%;
+}
